@@ -1,0 +1,34 @@
+research_task:
+  description: >
+    Research and gather detailed information about the book's theme, key topics,
+    and references for each chapter. Ensure the information is relevant and thorough.
+  expected_output: >
+    A well-researched document containing key points, references, and real-world examples for each chapter.
+  agent: research_agent
+
+
+outline_task:
+  description: >
+    Create a detailed chapter-by-chapter outline for the book, ensuring the structure
+    flows logically and aligns with the research gathered. Include key points for each chapter.
+  expected_output: >
+    A comprehensive outline with clear chapter headings and a brief description of the content to be covered.
+  agent: outline_agent
+
+
+writing_task:
+  description: >
+    Draft the content for each chapter of the book based on the research and outline.
+    Ensure the writing is engaging, clear, and adheres to the tone and style guidelines.
+  expected_output: >
+    Fully written chapters, with each chapter aligned to the outline and maintaining a consistent tone and style.
+  agent: writing_agent
+
+
+editing_task:
+  description: >
+    Edit the written chapters for clarity, grammar, style, and consistency. Ensure that
+    the chapters flow logically and cohesively from one to the next.
+  expected_output: >
+    Polished and refined chapters, free of grammatical errors, with improved readability and style.
+  agent: editing_agent
